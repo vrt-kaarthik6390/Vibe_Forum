@@ -1,0 +1,41 @@
+# Node
+node_modules/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+server.log
+audit.log
+
+# Debug/test scripts (not needed in prod)
+backend/debug_*.py
+backend/check_*.py
+backend/inspect_*.py
+backend/list_*.py
+backend/test_*.py
+backend/full_test.py
+backend/final_debug.py
+backend/sync_profiles.py
+backend/nuclear_vibe.py
+backend/force_reset.py
+backend/raw_*.py
+backend/find_*.py
+backend/get_user*.py
+backend/create_admin.py
+backend/reset_password.py
+backend/users.txt
+backend/production_requirements.txt
+
+# OS
+.DS_Store
+Thumbs.db
